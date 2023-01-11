@@ -5,7 +5,7 @@
   <img src="logo.svg#gh-light-mode-only" width="512" alt="Chaos Mesh Logo" />
   <img src="logo-white.svg#gh-dark-mode-only" width="512" alt="Chaos Mesh Logo" />
 </p>
-<h1 align="center">Website</h1>
+<h1 align="center">Website (Archived)</h1>
 <p align="center">
   Built using <a href="https://v2.docusaurus.io/" target="_blank">Docusaurus 2</a>, a modern static website generator.
 </p>
