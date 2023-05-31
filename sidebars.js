@@ -20,7 +20,6 @@ module.exports = {
             'offline-installation',
             'persistence-dashboard',
             'uninstallation',
-            'supported-releases',
           ],
         },
         'manage-user-permissions',

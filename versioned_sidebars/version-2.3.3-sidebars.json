@@ -22,12 +22,7 @@
             "production-installation-using-helm",
             "offline-installation",
             "persistence-dashboard",
-            "uninstallation",
-            {
-              "type": "link",
-              "label": "Supported Releases",
-              "href": "/supported-releases"
-            }
+            "uninstallation"
           ]
         },
         "manage-user-permissions",
