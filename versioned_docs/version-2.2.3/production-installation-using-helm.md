@@ -103,9 +103,9 @@ helm install chaos-mesh chaos-mesh/chaos-mesh -n=chaos-mesh --version latest`}
 
 <PickHelmVersion className="language-bash">{`helm install chaos-mesh chaos-mesh/chaos-mesh -n=chaos-mesh --set chaosDaemon.runtime=crio --set chaosDaemon.socketPath=/var/run/crio/crio.sock --version latest`}</PickHelmVersion>
 
-:::note
+:::info
 
-To install Chaos Mesh of a specific version, add the `--version xxx` parameter after `helm upgrade`, for example, `--version 2.0.0`.
+To install a specific version of Chaos Mesh, add the `--version x.y.z` parameter after `helm install/upgrade`. For example, `helm install chaos-mesh chaos-mesh/chaos-mesh -n=chaos-mesh --version 2.0.7`.
 
 :::
 
