@@ -10,7 +10,7 @@ import QuickRun from './common/quick-run.md'
 
 本篇文档描述如何在测试环境或本机环境快速试用 Chaos Mesh。
 
-:::note 提示
+:::note 注意
 
 **本文档提供的 Chaos Mesh 安装方式为脚本安装，仅供快速试用。**
 
@@ -36,7 +36,7 @@ import QuickRun from './common/quick-run.md'
 curl -sSL https://mirrors.chaos-mesh.org/latest/install.sh | bash
 </PickVersion>
 
-:::note 提示
+:::note 注意
 
 - 如果当前环境为 [kind](https://kind.sigs.k8s.io/)，请在脚本后添加 `--local kind` 参数。
 

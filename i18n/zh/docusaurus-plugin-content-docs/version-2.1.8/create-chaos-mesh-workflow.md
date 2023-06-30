@@ -42,7 +42,7 @@ Github 仓库中含有其他 Workflow 的[示例](https://github.com/chaos-mesh/
 
    在本示例中选择的任务类型为”单一“。
 
-   :::note 提示
+   :::note 注意
 
    Chaos Dashboard 会自动创建一个命名为 "entry" 的串行节点，作其用为该工作流的入口。
 
@@ -200,7 +200,7 @@ podChaos:
 | timeChaos | object | 配置 TimeChaos，当 type 为 TimeChaos 时需要配置该字段。详见 [模拟时间故障](simulate-time-chaos-on-kubernetes.md) | 无 | 否 |  |
 | schedule | object | 配置 Schedule ，当 type 为 Schedule 时需要配置该字段。详见 [定义调度规则](define-scheduling-rules.md) | 无 | 否 |  |
 
-:::note 提示
+:::note 注意
 
 当在 Workflow 中建立有持续时间的 Chaos 时，需要将持续时间填写到外层的 `deadline` 字段中，而不是使用 Chaos 中的 `duration` 字段。
 

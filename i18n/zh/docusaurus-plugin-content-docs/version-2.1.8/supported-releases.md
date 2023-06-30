@@ -27,7 +27,7 @@ v<major>.<minor>.<patch>
 
 其中，部分未来日期还未确定，具体日程可能会发生变化。
 
-:::note 提示
+:::note 注意
 
 Chaos Mes 2.0.4 版本已开始支持 Kubernetes 1.22 版本。
 

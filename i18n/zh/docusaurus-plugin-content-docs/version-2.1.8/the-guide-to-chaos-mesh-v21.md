@@ -17,7 +17,7 @@ title: 10 分钟体验 Chaos Mesh v2.1.0
 - 使用 kind 在本地部署并启动一个 Kubernetes 集群。
 - 在通过脚本部署的 Kubernetes 集群上安装 Chaos Mesh。
 
-:::note 提示
+:::note 注意
 
 - 建议**仅**在快速上手体验 Chaos Mesh 时或在测试环境中使用上述方式部署 Kubernetes 和 Chaos Mesh。
 - 在生产环境中，请通过 [使用 Helm 安装 Chaos Mesh](./production-installation-using-helm.md) 中提供的部署方式来部署 Kubernetes 和 Chaos Mesh。
