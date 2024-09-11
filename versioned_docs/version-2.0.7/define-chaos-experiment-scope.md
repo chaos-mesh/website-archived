@@ -17,7 +17,7 @@ When you create a Chaos experiment, Chaos Mesh supports the following ways to de
 
 ## Define the experiment scope in a YAML configuration file
 
-This section introduces the meanings of different selector types and their the usages, and provides the configuration examples in the YAML file. When defining the experiment scope in the YAML file, you can specify one or more selectors according to your need of scope filtering.
+This section introduces the meanings of different selector types and their usages, and provides the configuration examples in the YAML file. When defining the experiment scope in the YAML file, you can specify one or more selectors according to your need of scope filtering.
 
 ### Namespace selectors
 
@@ -51,7 +51,7 @@ spec:
 
 ### Expression selectors
 
-- Specifies a set of [expressions](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#resources-that-support-set-based-requirements) that define the label's rules to specifiy the experiment's target Pod.
+- Specifies a set of [expressions](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#resources-that-support-set-based-requirements) that define the label's rules to specify the experiment's target Pod.
 - You can use this selector to set up the experiment's target Pod that does not meet some labels.
 
 When you create the experiment using the YAML file, see the following example for selector configuration:
