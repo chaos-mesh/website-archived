@@ -28,13 +28,14 @@ module.exports = {
         srcDark: 'img/logos/logo-mini-white.svg',
       },
       items: [
-        {
-          type: 'docsVersionDropdown',
-        },
         { to: 'docs', label: 'Documentation' },
         {
           href: 'https://community.cncf.io/chaos-mesh-community/',
-          label: 'Events',
+          label: 'Community Group',
+        },
+
+        {
+          type: 'docsVersionDropdown',
         },
         {
           type: 'localeDropdown',
@@ -75,8 +76,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Events',
+              label: 'CNCF Community Group',
               href: 'https://community.cncf.io/chaos-mesh-community/',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/chaos-mesh/chaos-mesh',
             },
             {
               label: 'Slack (#project-chaos-mesh)',
@@ -89,28 +94,22 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Acknowledgements',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/chaos-mesh/chaos-mesh',
-            },
-          ],
-        },
-        {
-          title: 'Thanks',
-          items: [
-            {
-              html: '<a href="https://www.netlify.com"><img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" /></a>',
+              html: `
+              <ul>
+                <li>
+                  <p style="font-size: 0.875rem;">Thanks to netlify's Open Source Plan.</p>
+                  <a href="https://www.netlify.com" target="_blank"><img src="https://www.netlify.com/v3/img/components/netlify-color-bg.svg" alt="Deploys by Netlify" /></a>
+                </li>
+              </ul>`,
             },
           ],
         },
       ],
       copyright: `
-        <br />
-        <strong>© Chaos Mesh Authors ${new Date().getFullYear()} | Documentation Distributed under CC-BY-4.0 </strong>
-        <br />
-        <br />
+        <p style="font-weight: 500;">Copyright © Chaos Mesh Authors ${new Date().getFullYear()} | Documentation Distributed under CC-BY-4.0</p>
         © ${new Date().getFullYear()} The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/"> Trademark Usage</a> page.
       `,
     },
@@ -127,7 +126,7 @@ module.exports = {
           includeCurrentVersion: false,
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/chaos-mesh/website/edit/master/',
+          editUrl: 'https://github.com/chaos-mesh/website-archived/edit/master/',
           editLocalizedFiles: true,
         },
         theme: {
