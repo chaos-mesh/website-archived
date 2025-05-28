@@ -81,7 +81,7 @@ chaosd server --port 31767
 
 #### CPU 压力
 
-模拟 CPU 压力场景，将 action 设置为 "stress-cpu"，对应的配置可参考[模拟 CPU 压力相关参数说明](simulate-heavy-stress-in-physical-nodes.md#模拟-CPU-压力相关参数说明)。
+模拟 CPU 压力场景，将 action 设置为 "stress-cpu"，对应的配置可参考[模拟 CPU 压力相关参数说明](simulate-heavy-stress-in-physical-nodes.md#模拟-cpu-压力相关参数说明)。
 
 #### 内存压力
 
@@ -121,7 +121,7 @@ chaosd server --port 31767
 
 #### DNS 故障
 
-模拟 DNS 故障， 将 action 设置为 "network-dns"，对应的配置可参考 [DNS 故障相关参数说明](simulate-network-chaos-in-physical-nodes.md#DNS-故障相关参数说明)。
+模拟 DNS 故障， 将 action 设置为 "network-dns"，对应的配置可参考 [DNS 故障相关参数说明](simulate-network-chaos-in-physical-nodes.md#dns-故障相关参数说明)。
 
 #### 进程故障
 
@@ -145,7 +145,7 @@ chaosd server --port 31767
 
 #### JVM 应用使用 Byteman 配置文件触发故障
 
-JVM 应用使用 Byteman 配置触发故障，将 action 设置为 "jvm-rule-data"，对应的配置可参考[设置 Byteman 配置触发故障相关参数说明](simulate-jvm-application-chaos-in-physical-nodes.md#设置-Byteman-配置触发故障相关参数说明)。
+JVM 应用使用 Byteman 配置触发故障，将 action 设置为 "jvm-rule-data"，对应的配置可参考[设置 Byteman 配置触发故障相关参数说明](simulate-jvm-application-chaos-in-physical-nodes.md#设置-byteman-配置文件触发故障相关配置说明)。
 
 #### 时间偏移
 
